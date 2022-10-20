@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 400px;
+    margin-bottom: 20px;
+}
+
+.container-img img {
+    width: 300px;
+    height: 300px;
+}
+.container-jogo{
+
+    max-width: 1200px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    border: 2px solid #0d6EFD;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: #cbd5e1 1px 3px 3px 1px;
+}
+.user-btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
